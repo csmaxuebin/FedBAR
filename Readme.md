@@ -3,7 +3,7 @@
 
 
 ## Abstract
-![输入图片说明](/imgs/2024-06-16/3cIaebySLHZsWX4i.png)
+![DP-CUDA框架图](https://github.com/csmaxuebin/-DP-CUDA/blob/main/pic/pic/1.png)
 Federal Learning (FL) is a privacy-centric distributed machine learning framework, which mitigates privacy risks by sharing model updates rather than data. However, recent research indicates that sharing model updates cannot exempt FL from the threat of inference attacks. This study delves into the reasons for data leakage in FL under heterogeneous environments, revealing that attack Algorithms rely on prior knowledge and auxiliary information drawn from gradients for attacks. Based on these findings, we propose a block-level data augmentation privacy protection method for FL, addressing the reliance of attack algorithms on prior knowledge and auxiliary information. By undermining the validity of prior knowledge and preventing attack algorithms from utilizing auxiliary information to reconstruct private samples, the privacy risk can be reduced while maintaining the performance of FL. This is achieved by applying data augmentation techniques that incorporate privacy protection capabilities to the data representation. This paper conducts reconstruction attack experiments and, without compromising accuracy, significantly decreases the correlation between the data representations restored by the attack algorithms and the true data representations. This enhances the privacy protection capability of FL.
 
 
