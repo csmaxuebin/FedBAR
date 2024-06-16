@@ -3,7 +3,8 @@
 
 
 ## Abstract
-![DP-CUDA框架图](https://github.com/csmaxuebin/-DP-CUDA/blob/main/pic/pic/1.png)
+![](https://github.com/csmaxuebin/FedBAR/blob/main/pic/1.png)
+
 Federal Learning (FL) is a privacy-centric distributed machine learning framework, which mitigates privacy risks by sharing model updates rather than data. However, recent research indicates that sharing model updates cannot exempt FL from the threat of inference attacks. This study delves into the reasons for data leakage in FL under heterogeneous environments, revealing that attack Algorithms rely on prior knowledge and auxiliary information drawn from gradients for attacks. Based on these findings, we propose a block-level data augmentation privacy protection method for FL, addressing the reliance of attack algorithms on prior knowledge and auxiliary information. By undermining the validity of prior knowledge and preventing attack algorithms from utilizing auxiliary information to reconstruct private samples, the privacy risk can be reduced while maintaining the performance of FL. This is achieved by applying data augmentation techniques that incorporate privacy protection capabilities to the data representation. This paper conducts reconstruction attack experiments and, without compromising accuracy, significantly decreases the correlation between the data representations restored by the attack algorithms and the true data representations. This enhances the privacy protection capability of FL.
 
 
@@ -91,13 +92,13 @@ All attack models optimize generated samples using the Adam optimizer.
 
 ##  Experimental Results
 These graphs and tables summarize the effectiveness of different federated learning strategies under various attack vectors, focusing on how different privacy-preserving methods hold up against advanced adversarial techniques. Each plot and metric offers insight into the trade-offs between model accuracy, loss, and privacy protection.
-![输入图片说明](/imgs/2024-06-16/ptRhoSn9YP22ESx2.png)
-![输入图片说明](/imgs/2024-06-16/rYawiKXlj95mJril.png)
-![输入图片说明](/imgs/2024-06-16/dRd4qx2JMUNTKYC3.png)
+![](https://github.com/csmaxuebin/FedBAR/blob/main/pic/2.png)
+![](https://github.com/csmaxuebin/FedBAR/blob/main/pic/3.png)
+![](https://github.com/csmaxuebin/FedBAR/blob/main/pic/4.png)
 
 
 
-```
+
 ## Update log
 
 ```
